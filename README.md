@@ -10,4 +10,4 @@ This package allows you to enforce global or API-level policies from a single pl
 Install the package via Composer:
 
 ```bash
-composer require primo/policy-enforcer
+composer require umang-primocys/policy-enforcer
