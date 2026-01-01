@@ -1,0 +1,28 @@
+{
+  "name": "primo/policy-enforcer",
+  "description": "Central policy enforcement middleware for Laravel apps.",
+  "type": "library",
+  "license": "MIT",
+
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0 || ^10.0 || ^11.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Primo\\PolicyEnforcer\\": "src/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Primo\\PolicyEnforcer\\PolicyEnforcerServiceProvider"
+      ]
+    }
+  },
+
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
